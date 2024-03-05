@@ -78,7 +78,7 @@ body{
 #menu-icon{
     position: relative;
     font-size: 3.6rem;
-    color: var(--text-color);
+    color:var(--main-color);
     cursor: pointer;
     display: none;
 
@@ -248,17 +248,17 @@ align-items: center;
 width: 40px;
 height: 40px;
 background: transparent;
-border: .2rem solid var(red);
+border: .2rem solid var(--second-bg-color);
 border-radius: 50%;
 font-size: 20px;
-color: var(red);
+color: var(--main-color);
 z-index: 1;
 overflow: hidden;
 transition: .5s;
 }
 
 .home-sci a:hover{
-    color: var(--bg-color);
+    color: var(--second-bg-color);
 }
 
 .home-sci a::before{
@@ -716,7 +716,7 @@ section:nth-child(4) .animate.scroll{
 
     }
     #menu-icon:hover{
-        color:var(--bg-color);
+        color:red;
 
     }
 
