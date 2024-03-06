@@ -530,6 +530,7 @@ span{
     max-width: 70rem;
     margin: 0 auto;
     text-align: center;
+    flex-wrap: wrap;
 
 }
 
